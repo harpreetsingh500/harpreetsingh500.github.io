@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Austin, Texas</title>
+        <link rel="stylesheet" href="styles.css">
+
+        <script>
+            function checkBothEmails() {
+                var email = document.getElementById("email").value;
+                var confirmEmail = document.getElementById("confirmEmail").value;
+
+                if (email !== confirmEmail) {
+                    alert("Email addresses do not match.");
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <header>
+            <h1>Austin, Texas</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="austin.html">Austin</a>
+                </li>
+
+                <li>
+                    <a href="dallas.html">Dallas</a>
+                </li>
+
+                <li>
+                    <a href="houston.html">Houston</a>
+                </li>
+            </ul>
+        </nav>
+
+        <section class="city-page-section">
+            <p>Austin, the capital of Texas, is a lively city known for its music scene. This creative hub offers something for everyone - catch a live band or explore outdoor adventures.</p>
+
+            <!-- Image source: [https://www.austintexas.org/] -->
+            <img class="image-size" src="images/austin-downtown.jpg" alt="Austin Skyline">
+        </section>
+
+        <aside>
+            <h2>City Information</h2>
+            <ol>
+                <li>Population: 974,447</li>
+                <li>Year Incorporated: 1839</li>
+                <li>Region: Central Texas</li>
+                <li>Classification: Urban</li>
+                <li>Average Income Level: $65,250 - Higher than state average</li>
+            </ol>
+        </aside>
+
+        <form>
+            <h3>Contact Us</h3>
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" placeholder="Enter first name">
+            </div>
+
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" placeholder="Enter last name">
+            </div>
+
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="text" id="email" placeholder="Enter email address">
+            </div>
+
+            <div>
+                <label for="confirmEmail">Confirm Email Address:</label>
+                <input type="text" id="confirmEmail" placeholder="Confirm email address">
+            </div>
+
+            <div>
+                <label for="question">Question:</label>
+                <input type="text" id="question" placeholder="Ask question here">
+            </div>
+
+            <input type="submit" value="Submit" onclick="checkBothEmails()">
+        </form>
+    </body>
+</html>
