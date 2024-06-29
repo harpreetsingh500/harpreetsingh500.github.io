@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Tourism</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const faqs = document.querySelectorAll('.faq');
+      faqs.forEach(faq => {
+        faq.querySelector('.faq-question').addEventListener('click', () => {
+          faq.querySelector('.faq-answer').classList.toggle('show');
+        });
+      });
+    });
+  </script>
+</head>
+<body>
+<header>
+  <div class="logo">Taniti Tourism</div>
+  <img class="image-of-flag" src="img/flag.png" width="80px" alt="Flag">
+  <nav>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="about.html" class="nav-submenu nav-active">About Taniti</a>
+        <ul>
+          <li><a href="about.html#history">History and culture</a></li>
+          <li><a href="about.html#faqs">FAQs</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="attractions.html" class="nav-submenu">Attractions</a>
+        <ul>
+          <li><a href="attractions.html#outdoor">Outdoor Activities</a></li>
+          <li><a href="attractions.html#sightseeing">Sightseeing</a></li>
+        </ul>
+      </li>
+      <li><a href="accommodations.html">Accommodations</a></li>
+      <li>
+        <a href="dining.html" class="nav-submenu">Dining</a>
+        <ul>
+          <li><a href="dining.html#restaurants">Restaurants</a></li>
+          <li><a href="dining.html#grocery">Grocery stores</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="transportation.html" class="nav-submenu">Transportation</a>
+        <ul>
+          <li><a href="transportation.html#getting">Getting to Taniti</a></li>
+          <li><a href="transportation.html#ground">Ground transportation</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section id="history" class="main-content">
+  <h1>About Taniti</h1>
+  <p>Taniti is a small, tropical island in the Pacific. While the island has an area of less than 500 square miles, the terrain is varied and includes both sandy and rocky beaches, a small but safe harbor, lush tropical rainforests, and a mountainous interior that includes a small, active volcano. Taniti has an indigenous population of about 20,000. Until a recent increase in tourism, most the Tanitian economy was dominated by fishing or agriculture.</p>
+</section>
+
+<section id="faqs">
+  <h2 style="text-align: center">Frequently Asked Questions</h2>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What type of power outlets are used in Taniti?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Power outlets are 120 volts, the same as in the United States.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>Are there any restrictions on alcohol sales?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Alcohol is not allowed to be served or sold between the hours of midnight and 9:00 a.m.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What is the legal drinking age in Taniti?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>The drinking age on Taniti is 18 and it is not strictly enforced.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>Do people in Taniti speak English?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Many younger Tanitians speak fluent English. Very little English is spoken in rural areas, especially by the older residents.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What healthcare facilities are available in Taniti?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>There is one hospital and several clinics. The hospital has many multilingual employees.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>Is Taniti safe for tourists?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Violent crime is very rare on Taniti, but as tourism increases, there are more reports of pickpocketing and other petty crimes.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>Are there any holidays that might affect my visit?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Taniti enjoys a large number of national holidays, and many tourist attractions and restaurants will be closed on holidays, so visitors should plan accordingly.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What currency is used in Taniti?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Taniti uses the U.S. dollar as its currency, but many businesses will also accept euros and yen. Several banks facilitate currency exchange, and many businesses accept major credit cards.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>Does Taniti have grocery stores?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Taniti has two supermarkets, two smaller grocery stores, and one convenience store that is open 24 hours a day.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What are the available lodging options?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Taniti has a wide variety of lodging that ranges from an inexpensive hostel to one large, four-star resort. There are many small, family-owned hotels and a growing number of bed and breakfasts. All types of lodging are strictly regulated and regularly inspected by the Tanitian government.\</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What activities can people do?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Most tourists spend most of their time in Taniti City, which boasts native architecture and nearby white, sandy beaches that encircle Yellow Leaf Bay. Other popular activities include boat or bus tours of the island, hikes in the rainforest, or visits to Taniti’s active volcano.</p>
+    </div>
+  </div>
+
+  <div class="faq">
+    <div class="faq-question">
+      <h2>What travel options are available on Taniti?</h2>
+    </div>
+    <div class="faq-answer">
+      <p>Public buses serve Taniti City and run from 5 a.m. to 11 p.m. every day. Private buses serve the rest of the island. Taxis are available in Taniti City, and rental cars can be rented from a local rental agency near the airport. Bikes and helmets are available to rent from several vendors (helmets are required by law). Taniti City is fairly flat and very walkable. Many tourists stay in the area surrounding Merriton Landing: this area is easy to explore on foot.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <p>Contact Information | Social Media Links | Newsletter Signup</p>
+  </div>
+</footer>
+</body>
+</html>

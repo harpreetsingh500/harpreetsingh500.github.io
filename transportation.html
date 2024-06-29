@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Tourism</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      width: calc(33.333% - 20px);
+      box-sizing: border-box;
+    }
+
+    .card h3 {
+      text-align: center;
+    }
+
+    .main-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">Taniti Tourism</div>
+  <img class="image-of-flag" src="img/flag.png" width="80px" alt="Flag">
+  <nav>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="about.html" class="nav-submenu">About Taniti</a>
+        <ul>
+          <li><a href="about.html#history">History and culture</a></li>
+          <li><a href="about.html#faqs">FAQs</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="attractions.html" class="nav-submenu">Attractions</a>
+        <ul>
+          <li><a href="attractions.html#outdoor">Outdoor Activities</a></li>
+          <li><a href="attractions.html#sightseeing">Sightseeing</a></li>
+        </ul>
+      </li>
+      <li><a href=accommodations.html>Accommodations</a></li>
+      <li>
+        <a href="dining.html" class="nav-submenu">Dining</a>
+        <ul>
+          <li><a href="dining.html#restaurants">Restaurants</a></li>
+          <li><a href="dining.html#grocery">Grocery stores</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="transportation.html" class="nav-submenu nav-active">Transportation</a>
+        <ul>
+          <li><a href="transportation.html#getting">Getting to Taniti</a></li>
+          <li><a href="transportation.html#ground">Ground transportation</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section id="getting">
+  <h2 style="text-align: center">Getting to Taniti</h2>
+
+  <div class="main-image-container">
+    <img src="img/airplane.jpg" width="300px" alt="Plane">
+  </div>
+
+  <div class="grid" style="justify-content: space-around;">
+    <div class="card">
+      <h3>By Air</h3>
+      <p>Almost all visitors arrive to Taniti by air. The island is served by a small airport that can accommodate small jets and propeller planes. Taniti is in the process of expanding the airport so larger jets will be able to land on the island within the next few years.</p>
+    </div>
+
+    <div class="card">
+      <h3>By Sea</h3>
+      <p>Some visitors arrive on a small cruise ship that docks in Yellow Leaf Bay for one night per week. This offers a scenic and relaxed way to reach the island.</p>
+    </div>
+  </div>
+</section>
+
+<section id="grocery">
+  <h2 style="text-align: center;">Ground Transportation</h2>
+
+  <div class="main-image-container">
+    <img src="img/taxi.webp" width="300px" alt="Taxi">
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Public Buses</h3>
+      <p>Public buses serve Taniti City and run from 5 a.m. to 11 p.m. every day. These buses are a convenient and affordable way to travel around the city.</p>
+    </div>
+    <div class="card">
+      <h3>Private Buses</h3>
+      <p>Private buses serve the rest of the island, providing transportation to more remote areas. These buses are operated by various companies and offer scheduled services.</p>
+    </div>
+    <div class="card">
+      <h3>Taxis</h3>
+      <p>Taxis are available in Taniti City and can be hailed on the street or booked via phone. They offer a comfortable and direct way to travel to your destination.</p>
+    </div>
+    <div class="card">
+      <h3>Rental Cars</h3>
+      <p>Rental cars can be rented from a local rental agency near the airport. This is a great option for visitors who want the flexibility to explore the island at their own pace.</p>
+    </div>
+    <div class="card">
+      <h3>Bikes and Helmets</h3>
+      <p>Bikes and helmets are available to rent from several vendors. Helmets are required by law. Taniti City is fairly flat and very walkable, making bikes a popular choice for getting around.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <p>Contact Information | Social Media Links | Newsletter Signup</p>
+  </div>
+</footer>
+</body>
+</html>

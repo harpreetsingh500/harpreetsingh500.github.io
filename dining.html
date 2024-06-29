@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taniti Tourism</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .grid {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      width: calc(33.333% - 20px);
+      box-sizing: border-box;
+    }
+
+    .card h3 {
+      text-align: center;
+    }
+
+    .main-image-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">Taniti Tourism</div>
+  <img class="image-of-flag" src="img/flag.png" width="80px" alt="Flag">
+  <nav>
+    <ul class="nav">
+      <li><a href="index.html">Home</a></li>
+      <li>
+        <a href="about.html" class="nav-submenu">About Taniti</a>
+        <ul>
+          <li><a href="about.html#history">History and culture</a></li>
+          <li><a href="about.html#faqs">FAQs</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="attractions.html" class="nav-submenu">Attractions</a>
+        <ul>
+          <li><a href="attractions.html#outdoor">Outdoor Activities</a></li>
+          <li><a href="attractions.html#sightseeing">Sightseeing</a></li>
+        </ul>
+      </li>
+      <li><a href=accommodations.html>Accommodations</a></li>
+      <li>
+        <a href="dining.html" class="nav-submenu nav-active">Dining</a>
+        <ul>
+          <li><a href="dining.html#restaurants">Restaurants</a></li>
+          <li><a href="dining.html#grocery">Grocery stores</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="transportation.html" class="nav-submenu">Transportation</a>
+        <ul>
+          <li><a href="transportation.html#getting">Getting to Taniti</a></li>
+          <li><a href="transportation.html#ground">Ground transportation</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<section id="restaurants">
+  <h2 style="text-align: center">Restaurants</h2>
+
+  <div class="main-image-container">
+    <img src="img/restaurant2.jpg" width="300px" alt="Restaurant">
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Local Fish & Rice Restaurant</h3>
+      <p>Experience the best of local seafood with a variety of fish dishes and rice. Freshly caught and prepared.</p>
+    </div>
+    <div class="card">
+      <h3>American-style Diner</h3>
+      <p>Enjoy classic American meals, from burgers and fries to pancakes and milkshakes. A taste of home in Taniti.</p>
+    </div>
+    <div class="card">
+      <h3>Pan-Asian Cuisine</h3>
+      <p>Savor the flavors of Asia with our diverse menu, featuring dishes from across the continent, including sushi, noodles, and curries.</p>
+    </div>
+  </div>
+</section>
+
+<section id="grocery">
+  <h2 style="text-align: center;">Grocery stores</h2>
+
+  <div class="main-image-container">
+    <img src="img/grocery-store.jpg" width="300px" alt="Grocery store">
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Supermarket</h3>
+      <p>Another large supermarket offering a variety of food items, beverages, and household essentials.</p>
+    </div>
+    <div class="card">
+      <h3>Small Grocery Store</h3>
+      <p>A wide range of groceries and fresh produce. Everything you need to cook your own meals or grab a quick snack.</p>
+    </div>
+    <div class="card">
+      <h3>Convenience Store</h3>
+      <p>Open 24 hours a day, this store provides all the essentials, from snacks and drinks to toiletries and other necessities.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-content">
+    <p>Contact Information | Social Media Links | Newsletter Signup</p>
+  </div>
+</footer>
+</body>
+</html>
